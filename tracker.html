@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Freshness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <a href="loginp.html" class="logout-button">Logout</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Food Freshness Tracker</h1>
+        
+        <div class="info-cards">
+            <div class="card">
+                <span>🌡️ Temperature: <strong>4°C</strong></span>
+            </div>
+            <div class="card">
+                <span>💧 Humidity: <strong>60%</strong></span>
+            </div>
+            <div class="card">
+                <span>📷 Visual Analysis: <strong>Normal</strong></span>
+            </div>
+            <div class="card">
+                <span>⚠️ Gas Levels: <strong>Safe</strong></span>
+            </div>
+        </div>
+
+        <h2>Food Status</h2>
+
+        <div class="food-item">
+            <h3>Milk</h3>
+            <p>Status: Good (2 days)</p>
+            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            <span class="freshness-label">Freshness: 85%</span>
+        </div>
+
+        <div class="food-item">
+            <h3>Chicken</h3>
+            <p>Status: Consume Soon (1 day)</p>
+            <div class="progress-bar"><div class="progress" style="width: 40%;"></div></div>
+            <span class="freshness-label">Freshness: 40%</span>
+        </div>
+
+        <div class="food-item">
+            <h3>Broccoli</h3>
+            <p>Status: Spoiled (Expired)</p>
+            <div class="progress-bar"><div class="progress" style="width: 20%;"></div></div>
+            <span class="freshness-label">Freshness: 20%</span>
+        </div>
+    </div>
+</body>
+</html>
